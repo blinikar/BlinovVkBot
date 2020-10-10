@@ -1,0 +1,21 @@
+<?xml version = "1.0"?>
+<!--BlinovBot configuration file-->
+
+<items>
+	<!--secret code for bot reset-->
+	<secret_code>YOUR_SECRET_CODE_HERE</secret_code>
+
+	<!--main community config-->
+	<token>YOUR_MAIN_COMMUNITY_TOKEN_HERE</token>
+	<group_id>YOUR_GROUP_ID_HERE</group_id>
+		
+	<!--dispetcher_community_id-->
+	<dispetcher_token>YOUR_DISPETCHER_COMMUNITY_TOKEN_HERE</dispetcher_token>
+	<dispetcher_group_id>YOUR_DISPETCHER_COMMUNITY_ID_HERE</dispetcher_group_id>
+	<!--dispetcher_page_id-->
+	<dispetcher_id>YOUR_DISPETCHER_PAGE_ID_HERE</dispetcher_id>
+		
+	<!--log conguration-->
+	<technikal_log_dir>technikal_log.log</technikal_log_dir>
+	<client_orders_log_dir>client_orders_log.txt</client_orders_log_dir>
+</items>
