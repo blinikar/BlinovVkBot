@@ -20,11 +20,10 @@ root = tree.getroot()
 users = []
 orders_count = 1
 
-client_orders_log_dir = 'client_orders_log.txt'
-technikal_log_dir = 'technikal_log.log'
+client_orders_log_dir = root.find("client_orders_log_dir").text
+technikal_log_dir = root.find("technikal_log_dir").text
 
-server_v = "CONSTRUCTION BUILD"
-license_owner = "YEGOR BLINOV"
+program_ver = "CONSTRUCTION BUILD"
 token = root.find("token").text
 group_id = root.find("group_id").text
 secretcode = root.find("secret_code").text # code for data clearing
