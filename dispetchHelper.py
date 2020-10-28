@@ -1,6 +1,3 @@
-#Copyright ©Blinov Yegor, 2020. All rights reserved!
-#Licensed as Microsoft Reference Source License (Ms-RSL)(https://referencesource.microsoft.com/license.html)
-
 import datetime
 import vk_api
 import threading
